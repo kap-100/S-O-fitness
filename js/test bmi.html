@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+        <link rel="shortcut icon" href="https://citigym.com.vn/storage/uploads/logo.png">
+        <meta http-equiv="content-language" content="en">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=latin-ext,vietnamese" rel="stylesheet">
+        <style type="text/css">
+            .help-block {
+                color: #dc3545;
+            }
+            .seo-desc {
+                font-size: 16px;
+                font-weight: normal;
+            }
+
+            @media (min-width: 768px) and (max-width: 992px) {
+                .header .logo-img {
+                    top: 0;
+                }
+            }
+        </style>
+        <title>CITIGYM - Hệ thống phòng tập Gym, Yoga, Group X đẳng cấp Việt Nam</title>
+<meta name="description" content="CITIGYM - Chuỗi phòng tập gần bạn mang đến lối sống năng động, khỏe mạnh. Chính sách giá CITIGYM minh bạch, rõ ràng, mong muốn đồng hành tập luyện cùng bạn.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-132995851-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<meta property="og:description" content="CITIGYM - Chuỗi phòng tập gần bạn mang đến lối sống năng động, khỏe mạnh. Chính sách giá CITIGYM minh bạch, rõ ràng, mong muốn đồng hành tập luyện cùng bạn.">
+<meta property="og:keywords" content="Home">
+<meta property="og:image" content="https://citigym.com.vn/storage/uploads/bmi.jpg">
+<meta name="twitter:title" content="CITIGYM - Hệ thống phòng tập Gym, Yoga, Group X đẳng cấp Việt Nam">
+<meta name="twitter:description" content="CITIGYM - Chuỗi phòng tập gần bạn mang đến lối sống năng động, khỏe mạnh. Chính sách giá CITIGYM minh bạch, rõ ràng, mong muốn đồng hành tập luyện cùng bạn.">
+
+<link media="all" type="text/css" rel="stylesheet" href="/vendor/core/plugins/language/css/language-public.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/citigym/bundle/bmi/assets/css/index.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/citigym/plugins/bootstrap/dist/css/bootstrap.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/citigym/plugins/slick-carousel/slick/slick-theme.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/citigym/plugins/slick-carousel/slick/slick.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/citigym/plugins/zurb-twentytwenty/css/twentytwenty.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/citigym/plugins/metismenu/dist/metisMenu.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/citigym/plugins/photoswipe/dist/photoswipe.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/citigym/plugins/photoswipe/dist/default-skin/default-skin.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/citigym/css/style.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="/themes/citigym/css/custom.css">
+
+
+<script src="/themes/citigym/plugins/jquery/dist/jquery.min.js"></script>
+<script src="/themes/citigym/plugins/jquery.serializejson.min.js"></script>
+
+
+
+
+
+        <script>
+            (function($){
+                $.fn.getFormData = function(){
+                    var data = {};
+                    var dataArray = $(this).serializeArray();
+                    for(var i=0;i<dataArray.length;i++){
+                        data[dataArray[i].name] = dataArray[i].value;
+                    }
+                    return data;
+                }
+            })(jQuery);
+            var API = {
+                CONTACT : "https://citigym.com.vn/clb/send-contact",
+                APPLY_JOB: "https://citigym.com.vn/tuyen-dung/apply",
+                SCHEDULE_FILTER: "https://citigym.com.vn/json/schedule-filter",
+                SERVICE: "https://citigym.com.vn/dich-vu/filter",
+                BMI: "https://citigym.com.vn/api/bmi/create",
+            };
+            
+            var APP = {
+                VIEW_MORE_TEXT: "Xem Thêm"
+            };
+        </script>
+        <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-56P6JXJ');</script>
+        <!-- End Google Tag Manager -->
+    </head>
+    <body class="navigation-sticky"
+              >
+      
+                    <script type="text/javascript">
+	window.THEME_ASSET = "/themes/citigym/";
+</script>
+<header class="header header-white">
+	<div class="header-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="logo-img">
+						<a href="/vi">
+						<img src="/themes/citigym/images/logo.png" alt="Citigym"/>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-10">
+					<!-- Desktop Menubar -->
+					<div class="d-flex flex-center-y justify-content-end navigation-menu">
+						<div class="navigation-menu">
+<ul  class="menu sub-menu--slideLeft" minh-data="1">
+    <li class="mobile">
+        <a href="#" id="toggle-menu-mobile" class="close-menu-mobile">
+            <span class="remixicon-menu-line"></span>
+        </a>
+    </li>
+            <li class="  ">
+            <a href="https://citigym.com.vn/clb" target="_self">
+                <i class=''></i> <span>CLB</span>
+            </a>
+                    </li>
+            <li class="  ">
+            <a href="https://citigym.com.vn/dich-vu" target="_self">
+                <i class=''></i> <span>Dịch vụ</span>
+            </a>
+                    </li>
+            <li class="  ">
+            <a href="https://citigym.com.vn/lich-hoc" target="_self">
+                <i class=''></i> <span>Lịch Học</span>
+            </a>
+                    </li>
+            <li class="  ">
+            <a href="https://citigym.com.vn/chinh-sach-gia" target="_self">
+                <i class=''></i> <span>Chính sách giá</span>
+            </a>
+                    </li>
+            <li class="  ">
+            <a href="https://citigym.com.vn/tin-tuc" target="_self">
+                <i class=''></i> <span>Tin tức</span>
+            </a>
+                    </li>
+            <li class="  ">
+            <a href="http://ldp.to/27axA" target="_self">
+                <i class=''></i> <span>Khuyến mãi</span>
+            </a>
+                    </li>
+        
+</ul>
+</div>
+						<a href="http://ldp.to/trialciti" class="d-none d-md-block btn btn-brand"> Đăng kí tập thử</a>
+					</div>
+					<div class="desktop">
+						<div class="language-wrapper">
+							<div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    <img src="https://citigym.com.vn/vendor/core/images/flags/vn.png" title="Tiếng Việt" alt="Tiếng Việt">
+                                <!--                     Tiếng Việt
+                 -->
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu language_bar_chooser ">
+                                    <li  class="active" >
+                        <a rel="alternate" hreflang="vi" href="https://citigym.com.vn/bmi?age=20&amp;gender=1&amp;height=173&amp;name=Dinh%20Nam&amp;phone=0947627038&amp;weight=62">
+                            <img src="https://citigym.com.vn/vendor/core/images/flags/vn.png" title="Tiếng Việt" alt="Tiếng Việt">                            <span>Tiếng Việt</span>                        </a>
+                    </li>
+                                    <li >
+                        <a rel="alternate" hreflang="en" href="https://citigym.com.vn/en/bmi?age=20&amp;gender=1&amp;height=173&amp;name=Dinh%20Nam&amp;phone=0947627038&amp;weight=62">
+                            <img src="https://citigym.com.vn/vendor/core/images/flags/us.png" title="English" alt="English">                            <span>English</span>                        </a>
+                    </li>
+                            </ul>
+        </div>
+        
+    
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+</header>
+<!-- Menu show on mobile only -->
+<aside class="side-menu">
+	<div id="sidebar-menu">
+		<div class="navigation-menu">
+<ul  class="sidebar-menu-wrapper metismenu" id="side-menu" minh-data="1">
+    <li class="mobile">
+        <a href="#" style="text-align: right;" id="close-menu-mobile">
+            <span>X</span>
+        </a>
+    </li>
+            <li class="  ">
+            <a href="https://citigym.com.vn/clb" target="_self">
+                <i class=''></i> <span>CLB</span>
+            </a>
+                    </li>
+            <li class="  ">
+            <a href="https://citigym.com.vn/dich-vu" target="_self">
+                <i class=''></i> <span>Dịch vụ</span>
+            </a>
+                    </li>
+            <li class="  ">
+            <a href="https://citigym.com.vn/lich-hoc" target="_self">
+                <i class=''></i> <span>Lịch Học</span>
+            </a>
+                    </li>
+            <li class="  ">
+            <a href="https://citigym.com.vn/chinh-sach-gia" target="_self">
+                <i class=''></i> <span>Chính sách giá</span>
+            </a>
+                    </li>
+            <li class="  ">
+            <a href="https://citigym.com.vn/tin-tuc" target="_self">
+                <i class=''></i> <span>Tin tức</span>
+            </a>
+                    </li>
+            <li class="  ">
+            <a href="http://ldp.to/27axA" target="_self">
+                <i class=''></i> <span>Khuyến mãi</span>
+            </a>
+                    </li>
+        <li class="d-sm-block btn-brand desktop">
+        <a href="http://ldp.to/27axA" target="_self"><span>Khuyến mãi</span>
+        </a>
+    </li>
+</ul>
+</div>
+	</div>
+	<div class="mobile">
+		<div class="language-wrapper">
+			<div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    <img src="https://citigym.com.vn/vendor/core/images/flags/vn.png" title="Tiếng Việt" alt="Tiếng Việt">
+                                <!--                     Tiếng Việt
+                 -->
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu language_bar_chooser ">
+                                    <li  class="active" >
+                        <a rel="alternate" hreflang="vi" href="https://citigym.com.vn/bmi?age=20&amp;gender=1&amp;height=173&amp;name=Dinh%20Nam&amp;phone=0947627038&amp;weight=62">
+                            <img src="https://citigym.com.vn/vendor/core/images/flags/vn.png" title="Tiếng Việt" alt="Tiếng Việt">                            <span>Tiếng Việt</span>                        </a>
+                    </li>
+                                    <li >
+                        <a rel="alternate" hreflang="en" href="https://citigym.com.vn/en/bmi?age=20&amp;gender=1&amp;height=173&amp;name=Dinh%20Nam&amp;phone=0947627038&amp;weight=62">
+                            <img src="https://citigym.com.vn/vendor/core/images/flags/us.png" title="English" alt="English">                            <span>English</span>                        </a>
+                    </li>
+                            </ul>
+        </div>
+        
+    
+		</div>
+		<a href="http://ldp.to/trialciti" class="btn btn-brand mt-3"> Đăng kí tập thử</a>
+	</div>
+</aside>
+<style>
+.header .navigation-menu ul li a {
+	padding: 24px 13px;
+}
+.language-wrapper {
+    display: flex;
+    align-items: center;
+    top: 45%;
+    right: -6%;
+    position: absolute;
+	transform: translateY(-50%);
+	color: #454545;
+}
+
+.dropdown-toggle::after {
+	content: none;
+}
+
+.language-wrapper .language_bar_chooser li {
+    display: block;
+    float: none;
+    background-color: transparent !important;
+	padding-left: 10px;
+}
+
+.language-wrapper .language_bar_chooser li.active {
+    background-color: #f5f6f8 !important;
+}
+
+.btn-secondary:hover {
+    color: #454545;
+    background-color: #fff;
+    border: none;
+}
+
+.language-wrapper button .caret {
+	display: none !important;
+}
+
+.language-wrapper .dropdown-menu li.active a span {
+    color: #454545;
+}
+
+.language-wrapper .dropdown-menu li img {
+    margin: 0 !important;
+}
+
+
+.language_bar_chooser.dropdown-menu li a {
+    display: flex !important;
+    align-items: center;
+}
+
+.language_bar_chooser.dropdown-menu li a:hover {
+	text-decoration: none;
+}
+
+.language-wrapper .dropdown-menu li span {
+	margin-left: 10px;
+}
+
+.show>.btn-secondary.dropdown-toggle, .btn-secondary:focus {
+    color: #454545 !important;
+    background-color: #fff !important;
+    border: none !important;
+}
+
+.btn-secondary:focus, .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none !important;
+}
+
+.dropdown-menu.show {
+	top: 8px !important;
+}
+
+button.btn.btn-secondary.dropdown-toggle.active {
+	font-size: 14px;
+}
+
+@media(min-width: 992px) {
+	.mobile {
+		display: none;
+	}
+}
+@media (max-width: 992px) {
+	.desktop {
+		display: none;
+	}
+
+	.language-wrapper {
+		position: relative !important;
+		top: 10px;
+		right: 0;
+		left: -14px;
+	}
+
+	.dropdown {
+		width: 100%;
+	}
+
+	.dropdown-menu.show {
+		top: 8px !important;
+		width: 100%;
+	}
+}
+@media (min-width: 992px) {
+	.header .navigation-menu ul:not(.submenu) {
+		justify-content: flex-start;
+	}
+}
+@media (min-width: 1200px){
+	.container {
+	    max-width: 1170px;
+	}
+}
+</style>
+
+    
+        
+        <style>
+.font-w-300 {
+    font-weight: 300;
+}
+
+.font-17 {
+    font-size: 17px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.pt-64 {
+    padding-top: 64px;
+}
+.img_bmi img {
+    width: 100%;
+}
+table thead {
+    font-family: Teko, sans-serif;
+    font-size: 20px;
+    line-height: 1.25em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #29282d
+}
+
+table thead tr {
+    border: none;
+    border-bottom: 1px solid #e5e5e5
+}
+
+table th {
+    text-align: left;
+    padding: 18px 20px 18px 40px
+}
+
+table td {
+    text-align: left;
+    padding: 17px 20px 17px 40px;
+}
+
+table td:first-child {
+    width: 35%
+}
+
+table td:last-child {
+    width: 65%
+}
+
+table tbody tr {
+    border: none;
+    color: #2d2d2d;
+    border-bottom: 1px dashed #a7a6a7
+}
+
+table tbody tr:last-child {
+    border-bottom: 0
+}
+
+table tbody tr td,
+table tbody tr th,
+table thead tr td,
+table thead tr th {
+    border-right: 1px dashed #a7a6a7
+}
+
+table tbody tr td:last-child,
+table tbody tr th:last-child,
+table thead tr td:last-child,
+table thead tr th:last-child {
+    border-right: none
+}
+
+.title_bmi {
+    text-decoration: none;
+    font-size: 20px;
+    color: #a50000;
+    font-family: "Roboto Condensed",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    table td:first-child {
+        width: 45%;
+    }
+    table td {
+        padding: 15px;
+    }
+    table th {
+        padding: 15px;
+        font-size: 16px;
+    }
+    .row-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+</style>
+<div class="main-wrapper" style=" padding-top: 70px;">
+    <!-- <div class="main-wrapper">
+        <div class="mb-0" style="">
+
+            BMI nè Trang Thái:
+            {"height":"173","weight":"62","age":"20","gender":"1","name":"Dinh Nam","phone":"0947627038"}
+
+            <br>
+            <p>BMI Name: Dinh Nam</p>
+            <p>Em muốn lấy parameter thì sử dụng trong biến $bmi['{attribute_name}']</p>
+        </div>
+    </div> -->
+    <section class="section section-home-bmi pt-64">
+        <div class="container">
+            <div class="bmi-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 background-image m-b-md-5">
+                        <div class="stripe-vector">
+                            <img src="/themes/citigym/images/svg/stripe-grey.svg">
+                        </div>
+                        <img src="/themes/citigym/images/transparent-bg/bmi-text.png" class="item-image">
+                    </div>
+                    <div class="col-lg-6 bmi-content">
+                        <div class="section-title">Tính BMI (Chỉ số khối cơ thể)</div>
+                        <p class="form-group">BMI là chỉ số khối cơ thể (Body Mass Index), được các bác sĩ và chuyên gia sức khỏe dùng để xác định một người có bị béo phì, thừa cân hay quá gầy.</p>
+                            <form method="GET"  action="/bmi"  id="bmi-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" value="Dinh Nam" placeholder="Họ và tên">
+                                            <ul class="list-unstyled ml-1 mt-1" data-validation="eden-validation" data-field="name"></ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="phone" value="0947627038" placeholder="Số điện thoại">
+                                            <ul class="list-unstyled ml-1 mt-1" data-validation="eden-validation" data-field="phone"></ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="height" value="173" placeholder="Chiều cao / cm">
+                                            <ul class="list-unstyled ml-1 mt-1" data-validation="eden-validation" data-field="height"></ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="weight" value="62"  placeholder="Cân nặng / kg">
+                                            <ul class="list-unstyled ml-1 mt-1" data-validation="eden-validation" data-field="weight"></ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control"  name="age" value="20"  placeholder="Tuổi">
+                                            <ul class="list-unstyled ml-1 mt-1" data-validation="eden-validation" data-field="age"></ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <select class="form-control" name="gender" value="1">
+                                                <option value="">Giới tính</option>
+                                                <option selected value="1">Nam</option>
+                                                <option  value="0">Nữ</option>
+                                            </select>
+                                            <ul class="list-unstyled ml-1 mt-1" data-validation="eden-validation" data-field="gender"></ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-brand">Nhận kết quả</button>
+                                    </div>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-home-services font-w-300 font-17 mb-0"
+        style="background-image: url(/themes/citigym/images/banners/service-banner.jpg);">
+        <div class="container">
+            <div class="row row-reverse">
+                <div class="col-lg-6 col-md-5 order-md-1 order-2">
+                    <div class="qodef-section-title-holder">
+                        <div class="section-title"> Biểu đồ BMI</div>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Tình trạng cân nặng </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Dưới 18.5</td>
+                                <td>Thiếu cân </td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td> Bình thường</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Dư cân</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - Trên</td>
+                                <td>Béo phì</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="col-lg-6 col-md-6 order-md-1  order-1">
+                    <div class="qodef-section-title-holder">
+                        <div class="section-title">Kết quả BMI</div>
+                    </div>
+                    <div class="qodef-section-subtitle-holder">
+                        <div class="qodef-section-subtitle">
+                            <p>
+                            </p>
+                        </div>
+                        <div class="img_bmi mt-3">
+                            <a href="https://citigym.com.vn/do-inbody-buoc-dau-tien-khong-the-bo-qua-khi-muon-cai-thien-co-the.html">
+                            <img src="/storage/uploads/bmi.jpg" alt="">
+                        </a>
+                        </div>
+                        <div class="button_home mt-4 text-center">
+                            <a href="https://citigym.com.vn" class="btn btn-brand">Về Trang chủ</a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="qodef-grid-col-12">
+                    <div class="qodef-bmic-notifications">
+                        <span class="qodef-bmic-icon-holder">
+                            <span></span>
+                        </span>
+                        <span class="qodef-bmic-notification-text"></span>
+                        <a href="#" class="qodef-bmic-notification-close"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="popup bottom-left" data-timeout="30">
+        <button type="button" class="close" aria-label="Close" onclick="$('.popup').hide()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <a href="https://uudai.citigym.com.vn/infinity?utm_source=DMorganic&amp;utm_campaign=VietDH_DMorganic_Conversions_Citi-Gym_null&amp;utm_medium=Banner-web&amp;utm_content=null&amp;utm_term=Free1thang" target="_blank">
+            <img width="100%" src="https://citigym.com.vn/storage/uploads/vietdh/viber-image-2023-03-31-19-16-16-417.jpg" alt="Mua1Tang1 - BMI">
+        </a>
+    </div>
+    <script>
+        $(document).ready( function() {
+            setTimeout(function() {
+                $('.popup').addClass('show');
+            }, 2*1000);
+
+            setTimeout(function() {
+                $('.popup .close').trigger('click');
+            }, 30*1000);
+        });
+    </script>
+
+    
+                <div class="d-none h-card" itemscope itemtype="http://schema.org/Organization">
+    <span class="p-name" itemprop="name">CITIGYM</span>
+    <span class="p-tel" itemprop="telephone">1900 633 638</span>
+    <span class="p-url" itemprop="url">https://citigym.com.vn</span>
+    <span class="p-media" itemprop="logo">/storage/uploads/logocitigym.png</span>
+            <div itemprop="subOrganization">
+            <div class="p-name">Citigym Thành Thái</div>
+            <div class="adr">
+                <div class="street-address">52 Thành Thái</div>
+                <span class="locality">Phường 12, Quận 10, Thành phố Hồ Chí Minh</span>,
+                <abbr class="region" title="Hồ Chí Minh">Hồ Chí Minh</abbr>,
+                <div class="country-name">Viet Nam</div>
+            </div>
+        </div>
+            <div itemprop="subOrganization">
+            <div class="p-name">Citigym Phổ Quang</div>
+            <div class="adr">
+                <div class="street-address">119 Phổ Quang</div>
+                <span class="locality">Phường 09, Quận Phú Nhuận, Thành phố Hồ Chí Minh</span>,
+                <abbr class="region" title="Hồ Chí Minh">Hồ Chí Minh</abbr>,
+                <div class="country-name">Viet Nam</div>
+            </div>
+        </div>
+            <div itemprop="subOrganization">
+            <div class="p-name">Citigym Bến Vân Đồn</div>
+            <div class="adr">
+                <div class="street-address">34-35 Bến Vân Đồn</div>
+                <span class="locality">Phường 12, Quận 4, Thành phố Hồ Chí Minh</span>,
+                <abbr class="region" title="Hồ Chí Minh">Hồ Chí Minh</abbr>,
+                <div class="country-name">Viet Nam</div>
+            </div>
+        </div>
+            <div itemprop="subOrganization">
+            <div class="p-name">Citigym Lê Lợi</div>
+            <div class="adr">
+                <div class="street-address">28 Lê Lợi</div>
+                <span class="locality">Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</span>,
+                <abbr class="region" title="Hồ Chí Minh">Hồ Chí Minh</abbr>,
+                <div class="country-name">Viet Nam</div>
+            </div>
+        </div>
+            <div itemprop="subOrganization">
+            <div class="p-name">Citigym Vạn Hạnh Mall</div>
+            <div class="adr">
+                <div class="street-address">Lầu 7 TTTM Vạn Hạnh Mall</div>
+                <span class="locality">Phường 12, Quận 10, Thành phố Hồ Chí Minh</span>,
+                <abbr class="region" title="Hồ Chí Minh">Hồ Chí Minh</abbr>,
+                <div class="country-name">Viet Nam</div>
+            </div>
+        </div>
+            <div itemprop="subOrganization">
+            <div class="p-name">Citigym Sunrise</div>
+            <div class="adr">
+                <div class="street-address">23 - 25 - 27 Nguyễn Hữu Thọ</div>
+                <span class="locality">Phường Tân Hưng, Quận 7, Thành phố Hồ Chí Minh</span>,
+                <abbr class="region" title="Hồ Chí Minh">Hồ Chí Minh</abbr>,
+                <div class="country-name">Viet Nam</div>
+            </div>
+        </div>
+            <div itemprop="subOrganization">
+            <div class="p-name">Citigym Quang Trung</div>
+            <div class="adr">
+                <div class="street-address">628 Quang Trung</div>
+                <span class="locality">Phường 11, Quận Gò Vấp, Thành phố Hồ Chí Minh</span>,
+                <abbr class="region" title="Hồ Chí Minh">Hồ Chí Minh</abbr>,
+                <div class="country-name">Viet Nam</div>
+            </div>
+        </div>
+            <div itemprop="subOrganization">
+            <div class="p-name">Citigym Lê Văn Việt</div>
+            <div class="adr">
+                <div class="street-address">144 Lê Văn Việt</div>
+                <span class="locality">Phường Hiệp Phú, Quận 9, Thành phố Hồ Chí Minh</span>,
+                <abbr class="region" title="Hồ Chí Minh">Hồ Chí Minh</abbr>,
+                <div class="country-name">Viet Nam</div>
+            </div>
+        </div>
+            <div itemprop="subOrganization">
+            <div class="p-name">Citigym Điện Biên Phủ</div>
+            <div class="adr">
+                <div class="street-address">526 Điện Biên Phủ</div>
+                <span class="locality">Phường 21, Quận Bình Thạnh, Thành phố Hồ Chí Minh</span>,
+                <abbr class="region" title="Hồ Chí Minh">Hồ Chí Minh</abbr>,
+                <div class="country-name">Viet Nam</div>
+            </div>
+        </div>
+            <div itemprop="subOrganization">
+            <div class="p-name">Citigym Trường Chinh</div>
+            <div class="adr">
+                <div class="street-address">2 Trường Chinh</div>
+                <span class="locality">Phường Tây Thạnh, Quận Tân Phú, Thành phố Hồ Chí Minh</span>,
+                <abbr class="region" title="Hồ Chí Minh">Hồ Chí Minh</abbr>,
+                <div class="country-name">Viet Nam</div>
+            </div>
+        </div>
+    </div>
+
+<footer class="section-footer wow fadeInUp">
+	<div class="container">
+		<div class="row">
+												<div class="col-lg-4 m-b-md-2">
+				<div class="footer-title">
+					CITIGYM
+				</div>
+				<div class="footer-block">
+					<div class="row">
+																		<div class="col-md-12">
+							<ul>
+								<li>
+																											<span><i class="remixicon-phone-line"></i><a
+											href="tel:1900633638">1900 633 638</a></span>
+									
+																											<span><i class="remixicon-map-pin-line"></i>151-155 Bến Vân Đồn, Phường 6, Quận 4, TP.HCM</span>
+									
+																											<span><i class="remixicon-time-line"></i>Thứ Hai - Chủ Nhật: 6:00 - 22:00</span>
+									
+																	</li>
+							</ul>
+						</div>
+											</div>
+				</div>
+			</div>
+						<div class="col-lg-4 m-b-md-2">
+				<div class="footer-title">
+					
+				</div>
+				<div class="footer-block">
+					<div class="row">
+																		<div class="col-md-6">
+							<ul>
+								<li>
+																											<span><i class=""></i><a
+											href="https://citigym.com.vn/phuong-thuc-thanh-toan.html">Phương thức thanh toán</a></span>
+									
+																											<span><i class=""></i><a
+											href="https://citigym.com.vn/dich-vu">Dịch Vụ</a></span>
+									
+																											<span><i class=""></i><a
+											href="https://citigym.com.vn/chinh-sach-gia">Chính sách giá</a></span>
+									
+																											<span><i class=""></i><a
+											href="https://citigym.com.vn/chinh-sach-bao-mat">Chính sách bảo mật</a></span>
+									
+																	</li>
+							</ul>
+						</div>
+												<div class="col-md-6">
+							<ul>
+								<li>
+																											<span><i class=""></i><a
+											href="https://citigym.com.vn/tuyen-dung">Tuyển Dụng</a></span>
+									
+																											<span><i class=""></i><a
+											href="https://citigym.com.vn/tin-tuc">Tin Tức</a></span>
+									
+																											<span><i class=""></i><a
+											href="https://citigym.com.vn/lien-he.html">Liên hệ</a></span>
+									
+																											<span><i class=""></i><a
+											href="https://citigym.com.vn/clb">Câu lạc bộ</a></span>
+									
+																	</li>
+							</ul>
+						</div>
+											</div>
+				</div>
+			</div>
+						<div class="col-lg-4 col-5">
+				<div class="footer-title">Mạng xã hội</div>
+				<div class="footer-social-link">
+					<ul>
+						<li><a href="https://www.facebook.com/CITIGYMVN/"><i class="remixicon-facebook-box-fill"></i></a>
+						</li>
+						<li><a href="https://www.instagram.com/citigym_official/"><i class="remixicon-instagram-fill"></i></a></li>
+						<li><a href="https://www.youtube.com/c/citigymvn"><i class="remixicon-youtube-fill"></i></a></li>
+					</ul>
+				</div>
+			</div>
+					</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			Copyright <script>
+				document.write(new Date().getFullYear())
+			</script> @ CITIGYM. All Right Reserved
+		</div>
+	</div>
+</footer>
+        <script src="/themes/citigym/bundle/bmi/assets/js/index.js"></script>
+<script src="/vendor/core/plugins/language/js/language-public.js"></script>
+<script src="/themes/citigym/plugins/popper.js/dist/umd/popper.min.js"></script>
+<script src="/themes/citigym/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/themes/citigym/plugins/slick-carousel/slick/slick.min.js"></script>
+<script src="/themes/citigym/plugins/wowjs/dist/wow.min.js"></script>
+<script src="/themes/citigym/plugins/metismenu/dist/metisMenu.min.js"></script>
+<script src="/themes/citigym/plugins/zurb-twentytwenty/js/jquery.event.move.js"></script>
+<script src="/themes/citigym/plugins/photoswipe/dist/photoswipe.min.js"></script>
+<script src="/themes/citigym/plugins/zurb-twentytwenty/js/jquery.twentytwenty.js"></script>
+<script src="/themes/citigym/js/style.min.js"></script>
+<script src="/themes/citigym/plugins/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+
+
+
+
+                         <script>
+    
+    $('#popupModal').on('show.bs.modal', function(){
+        var myModal = $(this);
+        let timeout = +myModal.data('timeout')*1000;
+        clearTimeout(myModal.data('hideInterval'));
+        myModal.data('hideInterval', setTimeout(function(){
+            myModal.modal('hide');
+        }, timeout));
+    });
+    $(window).on('load', function() {
+        /* Act on the event */
+        setTimeout(function(){
+            if($('#popupModal').data('timeout') != 0){
+                $('#popupModal').modal('show');
+            }
+        }, +$('#popupModal').data('time_appear')*1000);
+        $('.twentytwenty-container').twentytwenty({
+            // default_offset_pct: 0.7, // How much of the before image is visible when the page loads
+            // before_label: 'January 2017', // Set a custom before label
+            // after_label: 'March 2017', // Set a custom after label
+            no_overlay: true, //Do not show the overlay with before and after
+            // move_slider_on_hover: true, // Move slider on mouse hover?
+            // move_with_handle_only: true, // Allow a user to swipe anywhere on the image to control slider movement. 
+            // click_to_move: false // Allow a user to click (or tap) anywhere on the image to move the slider to that location.
+        });
+    });
+
+    </script>
+    
+    <script src="/themes/citigym/bundle/contact/assets/js/index.js"></script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56P6JXJ"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    </body>
+
+
+</html>
